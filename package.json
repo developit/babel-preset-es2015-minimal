@@ -1,0 +1,24 @@
+{
+  "name": "babel-preset-es2015-minimal",
+  "version": "1.0.0",
+  "description": "Babel es2015 preset in loose mode without frills.",
+  "author": "Jason Miller <jason@developit.ca>",
+  "homepage": "https://github.com/developit/babel-preset-es2015-minimal",
+  "repository": "https://github.com/developit/babel-preset-es2015-minimal",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test | tap-spec"
+  },
+  "dependencies": {
+    "modify-babel-preset": "^1.0.0"
+  },
+  "peerDependencies": {
+    "babel-preset-es2015": "*"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0"
+  }
+}
