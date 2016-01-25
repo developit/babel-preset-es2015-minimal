@@ -11,7 +11,7 @@
     "test": "node ./test | tap-spec"
   },
   "dependencies": {
-    "modify-babel-preset": "^1.0.0"
+    "modify-babel-preset": "^1.1.0"
   },
   "peerDependencies": {
     "babel-preset-es2015": "*"
