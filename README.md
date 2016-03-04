@@ -4,6 +4,8 @@
 [![travis](https://travis-ci.org/developit/babel-preset-es2015-minimal.svg?branch=master)](https://travis-ci.org/developit/babel-preset-es2015-minimal)
 
 > Babel es2015 preset in loose mode without frills.
+>
+> Automatically kept in sync with `babel-preset-es2015` via [modify-babel-preset](https://github.com/developit/modify-babel-preset).
 
 
 ## Installation
