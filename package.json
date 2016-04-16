@@ -8,7 +8,9 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test | tap-spec"
+    "test": "node ./test | tap-spec",
+    "prepublish": "npm test",
+    "release": "npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "dependencies": {
     "modify-babel-preset": "^2.0.2"
