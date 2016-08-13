@@ -21,8 +21,14 @@ var SHOULD_BE_REMOVED = [
 	PREFIX+'typeof-symbol'
 ];
 
+function tryRequire(path) {
+	try {
+		return require(path);
+	} catch (e) {}
+}
+
 function getPluginEntry(name) {
-	var plugin = require('../node_modules/babel-preset-es2015/node_modules/babel-plugin-'+name);
+	var plugin = tryRequire('babel-plugin-'+name) || tryRequire('../node_modules/babel-preset-es2015/node_modules/babel-plugin-'+name);
 	for (var i=es2015Loose.plugins.length; i--; ) {
 		var p = es2015Loose.plugins[i];
 		if (p===plugin || p[0]===plugin) {
