@@ -1,5 +1,7 @@
 # babel-preset-es2015-minimal
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/developit/babel-preset-es2015-minimal.svg)](https://greenkeeper.io/)
+
 [![npm](https://img.shields.io/npm/v/babel-preset-es2015-minimal.svg)](http://npm.im/babel-preset-es2015-minimal)
 [![travis](https://travis-ci.org/developit/babel-preset-es2015-minimal.svg?branch=master)](https://travis-ci.org/developit/babel-preset-es2015-minimal)
 
